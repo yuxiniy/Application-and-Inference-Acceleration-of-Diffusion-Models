@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "timestamp": "20260501_133654",
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "model_path": "./stable-diffusion-2-1",
+    "num_warmup": 5,
+    "num_runs": 20,
+    "image_size": "512x512",
+    "guidance_scale": 7.5
+  },
+  "results": [
+    {
+      "config_label": "DPM-Solver++(2阶, 10步)",
+      "steps": 10,
+      "solver_order": 2,
+      "algorithm_type": "dpmsolver++",
+      "prompt_index": 0,
+      "prompt": "A beautiful landscape with mountains and a lake, highly detailed, 4k",
+      "avg_latency_ms": 793.81,
+      "std_latency_ms": 4.23,
+      "peak_memory_mb": 3097.07
+    },
+    {
+      "config_label": "DPM-Solver++(2阶, 10步)",
+      "steps": 10,
+      "solver_order": 2,
+      "algorithm_type": "dpmsolver++",
+      "prompt_index": 1,
+      "prompt": "A futuristic city at night with neon lights, cyberpunk style",
+      "avg_latency_ms": 808.4,
+      "std_latency_ms": 11.95,
+      "peak_memory_mb": 3097.07
+    },
+    {
+      "config_label": "DPM-Solver++(2阶, 10步)",
+      "steps": 10,
+      "solver_order": 2,
+      "algorithm_type": "dpmsolver++",
+      "prompt_index": 2,
+      "prompt": "A cute cat sitting on a bookshelf in a cozy library",
+      "avg_latency_ms": 848.95,
+      "std_latency_ms": 8.21,
+      "peak_memory_mb": 3097.07
+    },
+    {
+      "config_label": "DPM-Solver++(2阶, 20步)",
+      "steps": 20,
+      "solver_order": 2,
+      "algorithm_type": "dpmsolver++",
+      "prompt_index": 0,
+      "prompt": "A beautiful landscape with mountains and a lake, highly detailed, 4k",
+      "avg_latency_ms": 1604.88,
+      "std_latency_ms": 12.25,
+      "peak_memory_mb": 3097.07
+    },
+    {
+      "config_label": "DPM-Solver++(2阶, 20步)",
+      "steps": 20,
+      "solver_order": 2,
+      "algorithm_type": "dpmsolver++",
+      "prompt_index": 1,
+      "prompt": "A futuristic city at night with neon lights, cyberpunk style",
+      "avg_latency_ms": 1610.93,
+      "std_latency_ms": 7.75,
+      "peak_memory_mb": 3097.07
+    },
+    {
+      "config_label": "DPM-Solver++(2阶, 20步)",
+      "steps": 20,
+      "solver_order": 2,
+      "algorithm_type": "dpmsolver++",
+      "prompt_index": 2,
+      "prompt": "A cute cat sitting on a bookshelf in a cozy library",
+      "avg_latency_ms": 1615.77,
+      "std_latency_ms": 11.73,
+      "peak_memory_mb": 3097.07
+    },
+    {
+      "config_label": "DPM-Solver++(3阶, 20步)",
+      "steps": 20,
+      "solver_order": 3,
+      "algorithm_type": "dpmsolver++",
+      "prompt_index": 0,
+      "prompt": "A beautiful landscape with mountains and a lake, highly detailed, 4k",
+      "avg_latency_ms": 1617.88,
+      "std_latency_ms": 10.61,
+      "peak_memory_mb": 3097.1
+    },
+    {
+      "config_label": "DPM-Solver++(3阶, 20步)",
+      "steps": 20,
+      "solver_order": 3,
+      "algorithm_type": "dpmsolver++",
+      "prompt_index": 1,
+      "prompt": "A futuristic city at night with neon lights, cyberpunk style",
+      "avg_latency_ms": 1618.4,
+      "std_latency_ms": 5.65,
+      "peak_memory_mb": 3097.1
+    },
+    {
+      "config_label": "DPM-Solver++(3阶, 20步)",
+      "steps": 20,
+      "solver_order": 3,
+      "algorithm_type": "dpmsolver++",
+      "prompt_index": 2,
+      "prompt": "A cute cat sitting on a bookshelf in a cozy library",
+      "avg_latency_ms": 1617.59,
+      "std_latency_ms": 9.56,
+      "peak_memory_mb": 3097.1
+    },
+    {
+      "config_label": "DPM-Solver++(2阶, 50步)",
+      "steps": 50,
+      "solver_order": 2,
+      "algorithm_type": "dpmsolver++",
+      "prompt_index": 0,
+      "prompt": "A beautiful landscape with mountains and a lake, highly detailed, 4k",
+      "avg_latency_ms": 3905.11,
+      "std_latency_ms": 13.77,
+      "peak_memory_mb": 3097.07
+    },
+    {
+      "config_label": "DPM-Solver++(2阶, 50步)",
+      "steps": 50,
+      "solver_order": 2,
+      "algorithm_type": "dpmsolver++",
+      "prompt_index": 1,
+      "prompt": "A futuristic city at night with neon lights, cyberpunk style",
+      "avg_latency_ms": 3895.19,
+      "std_latency_ms": 8.27,
+      "peak_memory_mb": 3097.07
+    },
+    {
+      "config_label": "DPM-Solver++(2阶, 50步)",
+      "steps": 50,
+      "solver_order": 2,
+      "algorithm_type": "dpmsolver++",
+      "prompt_index": 2,
+      "prompt": "A cute cat sitting on a bookshelf in a cozy library",
+      "avg_latency_ms": 3921.46,
+      "std_latency_ms": 30.02,
+      "peak_memory_mb": 3097.07
+    }
+  ]
+}
